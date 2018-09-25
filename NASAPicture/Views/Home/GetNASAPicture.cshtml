@@ -1,0 +1,16 @@
+﻿@model NASAPicture.Helpers.NasaResponse
+@{
+    ViewData["Title"] = "GetNASAPicture";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <p>This is a test for NASA Picture!!!!!</p>
+    @*<iframe type="text/html" width="640" height="385" src= @Model.Url frameborder="0"></iframe>*@
+    <img src="@Model.Url" alt="NasaPic"/>
+</body>
+</html>
+
